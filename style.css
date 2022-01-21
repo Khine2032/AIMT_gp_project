@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#A67153 ;
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    background-color: #D9AF8B;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3a2715;
+}
+/* .nav_links .home{
+    font-size: 17px;
+    text-decoration: underline #d44949 3px ;
+    font-weight: bold;
+    text-underline-position: under;
+} */
+.nav_links ul a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 15px;
+    color: #3a2715;
+    transition: .3s;
+    /* border: 1px solid black; */
+}
+.nav_links ul .home,.nav_links ul a:hover{
+    font-size: 17px;
+    text-decoration: underline #eb840e 3px ;
+    font-weight: bold;
+    text-underline-position: under;
+}
+
+.contact_btn{
+    height: 50px;
+    width: 100px;
+    background-color: #d44949 ;
+    /* background-color: #d4494900 ; */
+    /* border: 2px solid #eb840e; */
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color:#D9AF8B;
+}
+.contact_btn:hover{
+    border: 2px solid #d44949;
+    background-color: #d4494900;
+    color: #3a2715;
+    /* width: 110px;
+    height: 55px; */
+}
